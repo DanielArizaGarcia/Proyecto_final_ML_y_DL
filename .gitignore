@@ -1,17 +1,18 @@
-# --- DATASETS DE IMÁGENES (NO SUBIR NUNCA) ---
+# --- CARPETAS PESADAS (Imágenes) ---
 petfinder-adoption-prediction/
 train_images/
 test_images/
-
-# --- ARCHIVOS PESADOS ---
 *.zip
-*.csv
 *.rar
-*.pkl
-*.h5
-*.pth
 
-# --- BASURA DEL SISTEMA Y PYTHON ---
+# --- IGNORAR TODOS LOS CSV POR DEFECTO ---
+*.csv
+
+# --- EXCEPCIONES (Estos SÍ se subirán) ---
+!train_ready.csv
+!test_ready.csv
+
+# --- OTROS ---
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
