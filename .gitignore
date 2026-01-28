@@ -1,0 +1,18 @@
+# --- DATASETS DE IMÁGENES (NO SUBIR NUNCA) ---
+petfinder-adoption-prediction/
+train_images/
+test_images/
+
+# --- ARCHIVOS PESADOS ---
+*.zip
+*.csv
+*.rar
+*.pkl
+*.h5
+*.pth
+
+# --- BASURA DEL SISTEMA Y PYTHON ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
