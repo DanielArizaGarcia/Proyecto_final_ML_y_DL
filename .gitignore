@@ -1,0 +1,19 @@
+# --- CARPETAS PESADAS (Imágenes) ---
+petfinder-adoption-prediction/
+train_images/
+test_images/
+*.zip
+*.rar
+
+# --- IGNORAR TODOS LOS CSV POR DEFECTO ---
+*.csv
+
+# --- EXCEPCIONES (Estos SÍ se subirán) ---
+!train_ready.csv
+!test_ready.csv
+
+# --- OTROS ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
